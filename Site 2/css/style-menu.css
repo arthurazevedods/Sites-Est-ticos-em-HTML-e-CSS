@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Kavoon&family=Righteous&display=swap');
+*{
+	font-family: 'Righteous', sans-serif;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 5%;
+	height: 12%;
+	background-color: #28262C;
+	
+}
+
+.logo {
+	font-size: 3rem;
+	cursor: pointer;
+	color: #F9F5FF;
+	text-transform: uppercase;
+	font-family: 'Kavoon';
+}
+
+.nav-ul{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+}
+
+.nav-li{
+	font-family: 'Righteous';
+	display: inline-block;
+	font-size: 20px;
+	padding: 0px 10px;
+}
+.nav-li a{
+	color: #CCCCCC;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav-li a:hover{
+	color: #998FC7;
+	text-decoration-line: underline;
+	font-size: 22px;
+}
+
+.transition{
+	transition: all 1s;
+}
+
+.bt-nav{
+	padding: 9px 25px;
+	background-color: #998FC7;
+	color: #F9F5FF;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 15psx;
+}
+.bt-nav:hover{
+	font-size: 18px;
+
+}
+

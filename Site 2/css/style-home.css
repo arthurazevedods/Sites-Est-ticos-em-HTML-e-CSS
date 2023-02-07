@@ -1,0 +1,83 @@
+main{
+	color: #F9F5FF;
+	background-color: black;
+	display: block;
+}
+
+section, div{
+	display: block;
+}
+
+
+.caixa-principal{
+	width: 80%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F9F5FF;
+	color: #28262C;
+	border: none;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.caixa-titulo{
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 35px;
+	display: flex;
+	align-items: center;
+}
+
+.p-caixa-principal{
+	font-size: 25px;
+	flex-wrap: wrap;
+	padding: 20px 10px;
+	margin: 5px 20px;
+}
+
+.bt-main{
+	padding: 15px 25px;
+	color: #F9F5FF;
+	background-color: #28262C;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 15px;
+}
+.bt-main:hover{
+	border: 2px solid #998FC7;
+	background-color: #998FC7;
+	font-size: 18pxs;
+}
+
+.caixa-other{
+	width: 80%;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F9F5FF;
+	color: #28262C;
+	border: none;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.list-other{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 50%;
+	font-size: 25px;
+}
+
+.mapa{
+	height: 600px;
+}
+
+

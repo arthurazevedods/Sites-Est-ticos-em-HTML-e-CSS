@@ -1,0 +1,25 @@
+
+
+#footer{
+	background-color: #28262C;
+	align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	height: 12%;
+     
+}
+.logo-footer{
+    font-family: 'Kavoon';
+	display: block;
+	padding: 10px 2px;	
+    
+}
+
+.copyright {
+    padding: 10px 2px;	
+    
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
